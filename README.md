@@ -1,6 +1,7 @@
 # CvHomeWork1
  my homework
 
+![My Image](photo.png)
 
 # Getting Started with Create React App
 
