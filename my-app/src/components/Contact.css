@@ -1,0 +1,35 @@
+.text {
+  font-size: 50px;
+}
+
+@media (max-width: 1200px) and (min-width: 601px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border-radius: 25px;
+    width: 40%;
+    margin-left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
