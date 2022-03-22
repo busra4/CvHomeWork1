@@ -6,7 +6,7 @@ const ScrollUp = () => {
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
-			if (window.scrollY > 400) {
+			if (window.scrollY > 500) {
 				setShowTopBtn(true);
 			} else {
 				setShowTopBtn(false);
